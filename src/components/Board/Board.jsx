@@ -6,16 +6,9 @@ export default function Board() {
     <>
       <Container>
         <Typography variant="h1">Board</Typography>
-        <Box className="americanLeague">
-          <DivisionalCard />
-          <DivisionalCard />
-          <DivisionalCard />
-        </Box>
-        <Box className="nationalLeague">
-          <DivisionalCard />
-          <DivisionalCard />
-          <DivisionalCard />
-        </Box>
+      </Container>
+      <Container>
+        <Typography variant="h3">Create League</Typography>
       </Container>
     </>
   );
